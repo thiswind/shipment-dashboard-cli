@@ -1,0 +1,12 @@
+name: shipment
+description: 外贸发货看板系统
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  # 目前不需要额外的依赖，使用Dart标准库即可
+
+dev_dependencies:
+  test: ^1.24.0 
