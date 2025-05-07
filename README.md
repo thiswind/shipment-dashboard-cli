@@ -1,6 +1,9 @@
-# 外贸发货看板系统
+# Shipment Dashboard CLI
 
-这是一个基于Dart开发的外贸发货看板命令行程序，用于管理外贸发货流程。系统支持贸易商和客户两种角色，提供完整的运单管理功能。
+一个基于Dart开发的外贸发货看板命令行程序，用于管理外贸发货流程。系统支持贸易商和客户两种角色，提供完整的运单管理功能。
+
+[![Dart](https://img.shields.io/badge/Dart-3.0.0+-blue.svg)](https://dart.dev)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 功能特点
 
@@ -26,17 +29,25 @@
 - Dart SDK 3.0.0 或更高版本
 - 操作系统：支持 Windows、macOS 和 Linux
 
-## 安装步骤
+## 快速开始
+
+### 安装
 
 1. 确保已安装Dart SDK
-2. 克隆项目到本地
-3. 在项目根目录运行：
+2. 克隆项目到本地：
+
+   ```bash
+   git clone https://github.com/thiswind/shipment-dashboard-cli.git
+   cd shipment-dashboard-cli
+   ```
+
+3. 安装依赖：
 
    ```bash
    dart pub get
    ```
 
-## 运行程序
+### 运行
 
 在项目根目录运行：
 
@@ -94,7 +105,9 @@ test/
       └── shipment_test.dart
 ```
 
-## 运行测试
+## 开发
+
+### 运行测试
 
 运行所有测试：
 
@@ -108,8 +121,6 @@ dart test
 dart test test/services/cli_service_test.dart
 ```
 
-## 开发说明
-
 ### 添加新功能
 
 1. 在 `lib/src/models` 中添加新的数据模型
@@ -122,14 +133,25 @@ dart test test/services/cli_service_test.dart
 - 所有代码必须包含单元测试
 - 提交前确保所有测试通过
 
-## 贡献指南
+## 贡献
+
+欢迎贡献代码！请遵循以下步骤：
 
 1. Fork 项目
-2. 创建功能分支
-3. 提交更改
-4. 推送到分支
+2. 创建功能分支 (`git checkout -b feature/amazing-feature`)
+3. 提交更改 (`git commit -m 'Add some amazing feature'`)
+4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 创建 Pull Request
 
 ## 许可证
 
-MIT License
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+
+## 作者
+
+- Your Name - [@yourusername](https://github.com/yourusername)
+
+## 致谢
+
+- [Dart](https://dart.dev) - 编程语言
+- [test](https://pub.dev/packages/test) - 测试框架
