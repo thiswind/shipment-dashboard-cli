@@ -4,9 +4,6 @@ import 'package:test/test.dart';
 import 'package:shipment/src/services/cli_service.dart';
 import 'package:shipment/src/services/customer_service.dart';
 import 'package:shipment/src/services/shipment_service.dart';
-import 'package:shipment/src/models/customer.dart';
-import 'package:shipment/src/models/shipment.dart';
-import 'package:shipment/src/storage/storage_service.dart';
 
 abstract class TestStdin implements Stdin {
   String? readLineSync({Encoding encoding = systemEncoding, bool retainNewlines = false});

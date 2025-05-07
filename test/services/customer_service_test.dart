@@ -1,6 +1,5 @@
 import 'package:test/test.dart';
 import 'package:shipment/src/services/customer_service.dart';
-import 'package:shipment/src/models/customer.dart';
 import 'dart:io';
 
 void main() {
